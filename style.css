@@ -91,7 +91,6 @@ footer a {
     text-align: justify;  /* optional: nice paragraph look */
 }
 
-
 table {
     width: 5%;
     border-collapse: collapse;
@@ -112,5 +111,16 @@ th {
 .social{
     text-align: center;
 }
+.skills-language-box {
+    display: flex;
+    justify-content: space-between;  /* pushes left & right */
+    margin-top: 20px;
+}
 
+.skills-section, .language-section {
+    width: 45%;   /* each takes half */
+}
 
+.skills-section h2, .language-section h2 {
+    margin-bottom: 10px;
+}
