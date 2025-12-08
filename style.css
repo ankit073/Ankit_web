@@ -76,23 +76,22 @@ footer a {
     border-radius: 8px;  /* optional */
 } */
 .photo-box {
-    text-align: center;     /* centers caption and image */
-    /* width: 166px;           /* same as your image width for perfect alignment */ */
-    float: left;
-    width: 200px;        /* adjust image size */
-    margin-right: 15px;  /* space between image and text */
-    border-radius: 8px;  /* optional */
+    display: inline-block;      /* keeps it on the left with text beside */
+    vertical-align: top;
 }
-.photo-box img {
-    width: 166px;           /* keep your existing image width */
-    display: block;         /* removes small gaps */
-    margin: 0 auto;         /* ensure image stays centered */
+
+.profile-photo {
+    width: 166px;               /* same size as before */
+    display: block;             /* caption goes directly under */
+    margin: 0;                  /* no centering */
 }
+
 .photo-caption {
-    margin-top: 8px;        /* space between photo + text */
-    font-size: 16px;
+    margin-top: 6px;
     font-weight: bold;
+    text-align: center;         /* centered under the image box only */
 }
+
 table {
             width: 5%;
             border-collapse: collapse;
@@ -114,4 +113,5 @@ th {
     text-align: center;
 
 }
+
 
