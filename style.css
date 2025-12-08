@@ -82,7 +82,7 @@ footer a {
 }
 
 .profile-photo {
-    width: 166px;               /* same size as before */
+    width: 20%;               /* same size as before */
     display: block;             /* caption goes directly under */
     margin: 0;                  /* no centering */
 }
@@ -114,6 +114,7 @@ th {
     text-align: center;
 
 }
+
 
 
 
