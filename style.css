@@ -78,6 +78,7 @@ footer a {
 .photo-box {
     display: inline-block;      /* keeps it on the left with text beside */
     vertical-align: top;
+    float: left;
 }
 
 .profile-photo {
@@ -113,5 +114,6 @@ th {
     text-align: center;
 
 }
+
 
 
