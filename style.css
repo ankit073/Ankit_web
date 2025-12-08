@@ -69,33 +69,32 @@ footer a {
     padding-right: 40px;
     color: white;
 }
-/* .profile {
-    float: left;
-    width: 200px;        /* adjust image size */
-    margin-right: 15px;  /* space between image and text */
-    border-radius: 8px;  /* optional */
-} */
 .photo-box {
-    display: inline-block;      /* keeps it on the left with text beside */
-    vertical-align: top;
-    float: left;
+    float: left;          /* keep the box on the left */
+    width: 20%;           /* box = 20% of page width */
+    text-align: center;   /* center caption & image inside the box */
+    margin-right: 20px;   /* space between photo and text */
 }
 
-.profile-photo {
-    width: 20%;               /* same size as before */
-    display: block;             /* caption goes directly under */
-    margin: 0;                  /* no centering */
+.photo-box img {
+    width: 100%;          /* image fills the box width */
+    height: auto;         /* keep proportions */
+    display: block;
 }
 
 .photo-caption {
     margin-top: 6px;
     font-weight: bold;
-    text-align: center;         /* centered under the image box only */
 }
 
+.about-text {
+    text-align: justify;  /* optional: nice paragraph look */
+}
+
+
 table {
-            width: 5%;
-            border-collapse: collapse;
+    width: 5%;
+    border-collapse: collapse;
 }
 th, td {
     border: 1px solid black;
@@ -112,9 +111,6 @@ th {
 }
 .social{
     text-align: center;
-
 }
-
-
 
 
