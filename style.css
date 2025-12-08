@@ -69,11 +69,25 @@ footer a {
     padding-right: 40px;
     color: white;
 }
-.profile {
+/* .profile {
     float: left;
     width: 200px;        /* adjust image size */
     margin-right: 15px;  /* space between image and text */
     border-radius: 8px;  /* optional */
+} */
+.photo-box {
+    text-align: center;     /* centers caption and image */
+    width: 166px;           /* same as your image width for perfect alignment */
+}
+.photo-box img {
+    width: 166px;           /* keep your existing image width */
+    display: block;         /* removes small gaps */
+    margin: 0 auto;         /* ensure image stays centered */
+}
+.photo-caption {
+    margin-top: 8px;        /* space between photo + text */
+    font-size: 16px;
+    font-weight: bold;
 }
 table {
             width: 5%;
@@ -94,4 +108,5 @@ th {
 }
 .social{
     text-align: center;
+
 }
