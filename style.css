@@ -77,7 +77,11 @@ footer a {
 } */
 .photo-box {
     text-align: center;     /* centers caption and image */
-    width: 166px;           /* same as your image width for perfect alignment */
+    /* width: 166px;           /* same as your image width for perfect alignment */ */
+    float: left;
+    width: 200px;        /* adjust image size */
+    margin-right: 15px;  /* space between image and text */
+    border-radius: 8px;  /* optional */
 }
 .photo-box img {
     width: 166px;           /* keep your existing image width */
@@ -110,3 +114,4 @@ th {
     text-align: center;
 
 }
+
