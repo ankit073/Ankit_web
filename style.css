@@ -126,4 +126,11 @@ th {
     margin-bottom: 10px;
 }
 
+.internship li{
+    font-size: 1.3rem; /* similar to h3 */
+    margin-bottom: 10px;
+}
 
+.internship a{
+    font-size: 1.1rem; /* similar to h4 */
+}
